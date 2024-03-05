@@ -1,0 +1,29 @@
+name: vec3text
+channels:
+- conda-forge
+- pytorch
+- nvidia
+dependencies:
+- __cuda
+- cudatoolkit
+- pytorch
+- pytorch-cuda
+- accelerate
+- bert_score
+- datasets==2.17.1
+- evaluate
+- openai
+- optimum
+- pre-commit
+- rouge-score
+- sacrebleu
+- sentence-transformers>=2.2.2
+- tenacity
+- tokenizers
+- tqdm
+- transformers>=4.37.2
+- wandb
+- pip
+- pip: 
+  - pylcs
+  - -e .
